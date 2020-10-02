@@ -8,7 +8,7 @@
     <title>Love Calculator</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="icon" href="{{asset('assets/images/kopa.png')}}">
-    <script src="{{asset('assets/js/fontawesome.js')}}"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>
         body,html{
              height: 100%;
