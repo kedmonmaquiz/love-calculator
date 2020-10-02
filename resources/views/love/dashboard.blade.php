@@ -84,9 +84,9 @@
     <div class="container">
             <div class="row">
                 <div class="col-sm-12 text-center bg">
-                    <h3 class="text-white pt-5 ">{{$owner->name}}</h3>
+                    <h3 class="text-white pt-3 ">{{$owner->name}}</h3>
                     <h5 class="text-white pt-2">Share your link:</h5>
-                    <div class="m-3">
+                    <div class="m-2">
                         <textarea name="link" class="form-control" id="copy">{{url('/').'/l/'.$owner->id.'/'.$owner->code}}</textarea>
                     </div>
                     <div class="p-2">
@@ -108,7 +108,7 @@
                         <button href="#" class="btn btn-primary p-2">WS</button> <button href="#" class="btn btn-primary p-2">IG</button>
                         <button href="#" class="btn btn-primary p-2">FB</button> <button href="#" class="btn btn-primary p-2">MG</button>
                       </div> --}}
-                    <div class="p-4">
+                    <div class="p-2">
                         <table class="table table-bordered table-success">
                             <tr style="background-color: green">
                                 <th>C/N</th>
@@ -133,7 +133,7 @@
                            @endif
                         </table>
                     </div>
-                    <h2 class="pt-5 pb-3 text-white">Take a screenshot of your secret link</h2>
+                    <h2 class="pt-2 pb-3 text-white">Take a screenshot of your secret link</h2>
                     <h4 class="pt-2 pb-2 text-white">{{url('/').'/l/'.$owner->id.'/'.$owner->code}}</h4>
                 </div>
             </div>

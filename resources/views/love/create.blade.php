@@ -95,7 +95,7 @@
                             @csrf
                             <div class="pt-4">
                                 <label for="" class="text-white">Name</label>
-                                <input type="text"  name="name" class="form-control input" placeholder="Name">
+                                <input type="text"  name="name" class="form-control input" placeholder="Name" required="">
                             </div>
                             <div class="pt-3 pb-2">
                                 <button id="submit" class="btn btn-dark pt-2 pb-2" style="width: 100%"> <span class="fa fa-heart"></span> <strong>&nbsp;&nbsp; Register &nbsp;&nbsp;<span class="fa fa-heart"></span> </strong></button>
