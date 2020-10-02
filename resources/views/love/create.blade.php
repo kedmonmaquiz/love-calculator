@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="_token" content="{{csrf_token()}}">
-    <meta name="theme-color" content="#999999">
+    <meta name="theme-color" content="#ff1493">
     <title>Love Calculator</title>
     <link rel="stylesheet" href="{{asset('assets/css/bootstrap.min.css')}}">
     <link rel="icon" href="{{asset('assets/images/kopa.png')}}">
