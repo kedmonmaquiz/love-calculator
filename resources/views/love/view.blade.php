@@ -74,7 +74,7 @@
     </style>
 </head>
 <body style="overflow-x: hidden;">
-    <div class="container">
+    <div class="">
             <div class="row">
                 <div class="col-sm-12 text-center bg">
                     <h4 class="mb-5 mt-5 text-white">You have been fooled by {{$owner->name}}</h4>

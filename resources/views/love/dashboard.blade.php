@@ -81,7 +81,7 @@
     </style>
 </head>
 <body style="overflow-x: hidden;">
-    <div class="container">
+    <div class="">
             <div class="row">
                 <div class="col-sm-12 text-center bg">
                     <h3 class="text-white pt-3 ">{{$owner->name}}</h3>

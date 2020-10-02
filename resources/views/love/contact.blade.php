@@ -82,7 +82,7 @@
     </style>
 </head>
 <body style="overflow-x: hidden;">
-    <div class="container">
+    <div class="">
 
           <!--contact-->
             <div class="row">
