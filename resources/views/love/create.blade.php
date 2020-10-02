@@ -15,7 +15,7 @@
              font-family: sans-serif;
              max-width: 800px;
              margin:auto;
-             overflow:hidden;
+             overflow-x:hidden;
         }
         .bg{
             background-image: url("{{ asset('assets/images/bg4.jpg') }}");
