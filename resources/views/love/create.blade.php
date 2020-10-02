@@ -80,7 +80,7 @@
     </style>
 </head>
 <body style="overflow-x: hidden;">
-    <div class="">
+    <div class="container-fluid">
             <div class="row">
                 <div class="col-sm-12 text-center bg">
                     <h2 class="pb-3 pt-3 text-white">Love Calculator</h2>
