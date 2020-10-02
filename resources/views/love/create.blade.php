@@ -12,9 +12,9 @@
     <style>
         body,html{
              height: 100%;
-            font-family: sans-serif;
-            max-width: 900px;
-            margin:auto;
+             font-family: sans-serif;
+             max-width: 800px;
+             margin:auto;
         }
         .bg{
             background-image: url("{{ asset('assets/images/bg4.jpg') }}");
@@ -80,7 +80,7 @@
     </style>
 </head>
 <body style="overflow-x: hidden;">
-    <div class="container">
+    <div class="">
             <div class="row">
                 <div class="col-sm-12 text-center bg">
                     <h2 class="pb-3 pt-3 text-white">Love Calculator</h2>
