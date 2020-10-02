@@ -25,4 +25,6 @@ Route::post('/love','App\Http\Controllers\AppController@storeOwner');
 
 Route::get('/love/{id}/{code}','App\Http\Controllers\AppController@ownerDashboard');
 
+Route::get('/contact','App\Http\Controllers\AppController@showContact');
+
 

@@ -49,4 +49,8 @@ class AppController extends Controller
     	return view('love.view',compact('owner'));
     }
 
+    public function showContact(){
+    	return view('love.contact');
+    }
+
 }
