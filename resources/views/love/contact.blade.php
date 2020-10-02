@@ -12,7 +12,7 @@
         body,html{
             height: 100%;
             font-family: sans-serif;
-            max-width: 800px;
+            max-width: 900px;
             margin:auto;
         }
         .bg{
@@ -82,7 +82,7 @@
     </style>
 </head>
 <body style="overflow-x: hidden;">
-    <div class="">
+    <div class="container">
 
           <!--contact-->
             <div class="row">

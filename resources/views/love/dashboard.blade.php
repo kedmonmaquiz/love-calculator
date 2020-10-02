@@ -12,7 +12,7 @@
         body,html{
              height: 100%;
             font-family: sans-serif;
-            max-width: 800px;
+            max-width: 900px;
             margin:auto;
         }
         .bg{
@@ -81,7 +81,7 @@
     </style>
 </head>
 <body style="overflow-x: hidden;">
-    <div class="">
+    <div class="container">
             <div class="row">
                 <div class="col-sm-12 text-center bg">
                     <h3 class="text-white pt-3 ">{{$owner->name}}</h3>
