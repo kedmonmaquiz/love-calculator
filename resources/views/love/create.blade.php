@@ -12,6 +12,7 @@
     <style>
         body,html{
              height: 100%;
+             min-height: 100%;
              font-family: sans-serif;
              max-width: 800px;
              margin:auto;
@@ -91,7 +92,7 @@
                        <li type="none">Check your Friend's Secret Crush on your Secret link.</li>
                     </ul>
                     <div><img src="{{ asset('assets/images/kopa.png') }}" width="140px" alt=""></div>
-                    <div class="pt-3 ml-5 mr-5 pb-2">
+                    <div class="pt-3 ml-5 mr-5 pb-5">
                         <form action="/love" method="post">
                             @csrf
                             <div class="pt-4">
