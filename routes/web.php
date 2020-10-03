@@ -27,4 +27,10 @@ Route::get('/love/{id}/{code}','App\Http\Controllers\AppController@ownerDashboar
 
 Route::get('/contact','App\Http\Controllers\AppController@showContact');
 
+Route::get('/waiting',function(){
+	return view('love.waiting');
+});
+
+
+
 
