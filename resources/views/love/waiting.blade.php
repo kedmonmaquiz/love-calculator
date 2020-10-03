@@ -33,10 +33,7 @@
                 <div class="col-sm-12 text-center bg">
                     <div><img src="{{ asset('assets/images/unnamed.gif') }}" width="300px" alt=""></div>
                 </div>
-            </div>
-
-           
+            </div> 
     </div>
-   
 </body>
 </html>
