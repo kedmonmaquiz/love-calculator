@@ -90,7 +90,7 @@
                             <input type="hidden" name="owner_code" id="code" value="{{$code}}" required="">
                             <div class="pt-4">
                                 <label for="" class="text-white">Name</label>
-                                <input type="text" name="name" autocomplete="off" id="name" class="form-control input" placeholder="Name" required >
+                                <input type="text" name="name" autocomplete="off" id="name" class="form-control input" placeholder="Name" required="" >
                             </div>
                             <div class="pt-4">
                                 <label for="" class="text-white">Your Love/Crush</label>
@@ -140,7 +140,7 @@
             var id = $('#id').val();
 
             if(!name || !crush ){
-                alert('please fill the required inputs first');
+                //
             }else{
                 $.ajaxSetup({
                       headers:{
