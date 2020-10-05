@@ -89,11 +89,11 @@
                             <input type="hidden" name="owner_id" id="id" value="{{$id}}" required>
                             <input type="hidden" name="owner_code" id="code" value="{{$code}}" required="">
                             <div class="pt-5">
-                                <label for="" class="text-white">Name</label>
+                                <label for="" class="text-white">Your Name</label>
                                 <input type="text" name="name" autocomplete="off" id="name" class="form-control input" placeholder="Name" required="" >
                             </div>
                             <div class="pt-4">
-                                <label for="" class="text-white">Your Love/Crush</label>
+                                <label for="" class="text-white">Your Love/Crush Name</label>
                                 <input type="text" name="crush" autocomplete="off" id="crush" class="form-control input" placeholder="Love" required >
                             </div>
                             <div class="pt-5 pb-5">
