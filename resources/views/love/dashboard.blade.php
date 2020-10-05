@@ -134,7 +134,7 @@
                         </table>
                     </div>
                     <h2 class="pt-2 pb-3 text-white">Take a screenshot of your secret link</h2>
-                    <h4 class="pt-2 pb-2 text-white">{{url('/').'/l/'.$owner->id.'/'.$owner->code}}</h4>
+                    <p class="pt-2 pb-2 text-white">{{url('/').'/l/'.$owner->id.'/'.$owner->code}}</p>
                 </div>
             </div>
 
