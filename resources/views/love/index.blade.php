@@ -11,7 +11,6 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>
         body,html{
-            height: 100%;
             font-family: sans-serif;
             max-width: 800px;
             margin:auto;
@@ -140,7 +139,7 @@
             var code = $('#code').val();
             var id = $('#id').val();
 
-            if(!name || !crush ){
+            while(!name || !crush ){
                 alert('please fill the required inputs first');
             }
 
