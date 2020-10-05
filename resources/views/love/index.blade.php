@@ -82,7 +82,7 @@
     <div class="">
             <div class="row">
                 <div class="col-sm-12 text-center bg">
-                    <h2 class="pb-5 pt-5 text-white">Love Calculator</h2>
+                    <h2 class="pb-3 pt-3 text-white">Love Calculator</h2>
                     <div><img src="{{ asset('assets/images/kopa.png') }}" width="140px" alt=""></div>
                     <div class="pt-5 ml-5 mr-5 pb-5">
                         <form action="/" method="post">
