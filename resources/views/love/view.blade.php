@@ -84,14 +84,16 @@
 
             <!--dashboard-->
             <div class="row">
-               <div class="col-sm-12 pt-3 pb-3 bg-dashboard">
-                  <div class="text-center text-white">
+               <div class="col-sm-12 pt-3 pb-3 bg-dashboard text-center">
+                  <div class="text-white">
                     <p class="text-white">Register now to play the same prank to your friends &nbsp; <a href="/love" class="btn btn-danger">Register now</a></p>
                     <h3 class="text-white">How it works ?</h3>
-                    <ul class="list-group">
+                    <div class="container">
+                        <ul class="list-group">
                         <li class="list-group-item"><span class="badge badge-warning">step 1</span> &nbsp;<span class="text-dark">Register and share your link</span></li>
                         <li class="list-group-item"><span class="badge badge-warning">step 2</span> &nbsp;<span class="text-dark">Check your Friend's Secret Crush on your Secret link.</span></li>
                     </ul>
+                    </div>
                 </div>
                </div>
             </div>
