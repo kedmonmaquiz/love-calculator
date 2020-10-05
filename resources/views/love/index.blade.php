@@ -139,11 +139,10 @@
             var code = $('#code').val();
             var id = $('#id').val();
 
-            while(!name || !crush ){
+            if(!name || !crush ){
                 alert('please fill the required inputs first');
-            }
-
-            $.ajaxSetup({
+            }else{
+                $.ajaxSetup({
                       headers:{
                         'X-CSRF-TOKEN':$('meta[name="_token"]').attr('content')
                       }
@@ -208,6 +207,9 @@
                        console.log('fooled successfully');
                      }
                    });
+            }
+
+            
            });
         });
     </script>
