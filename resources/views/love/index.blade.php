@@ -130,13 +130,13 @@
           <div class="modal-dialog modal-dialog-centered" role="document">
             <div class="modal-content">
               <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLongTitle">heheheheh</h5>
+                <h5 class="modal-title" id="exampleModalLongTitle">Required credentials are missing</h5>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                   <span aria-hidden="true">&times;</span>
                 </button>
               </div>
               <div class="modal-body">
-                body
+                Dear user, you must enter your name and your crush name so that the system can calculate the love percentage
               </div>
               <div class="modal-footer">
                 <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
