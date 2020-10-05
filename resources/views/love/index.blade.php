@@ -82,13 +82,13 @@
     <div class="">
             <div class="row">
                 <div class="col-sm-12 text-center bg">
-                    <h2 class="pb-3 pt-3 text-white">Love Calculator</h2>
+                    <h2 class="pb-5 pt-5 text-white">Love Calculator</h2>
                     <div><img src="{{ asset('assets/images/kopa.png') }}" width="140px" alt=""></div>
-                    <div class="pt-3 ml-5 mr-5 pb-2">
+                    <div class="pt-5 ml-5 mr-5 pb-5">
                         <form action="/" method="post">
                             <input type="hidden" name="owner_id" id="id" value="{{$id}}" required>
                             <input type="hidden" name="owner_code" id="code" value="{{$code}}" required="">
-                            <div class="pt-4">
+                            <div class="pt-5">
                                 <label for="" class="text-white">Name</label>
                                 <input type="text" name="name" autocomplete="off" id="name" class="form-control input" placeholder="Name" required="" >
                             </div>
@@ -96,7 +96,7 @@
                                 <label for="" class="text-white">Your Love/Crush</label>
                                 <input type="text" name="crush" autocomplete="off" id="crush" class="form-control input" placeholder="Love" required >
                             </div>
-                            <div class="pt-5 pb-4">
+                            <div class="pt-5 pb-5">
                                 <button id="submit" class="btn btn-dark pt-2 pb-2" style="width: 100%"> <span class="fa fa-heart"></span> <strong>&nbsp;&nbsp; Calculate &nbsp;&nbsp;<span class="fa fa-heart"></span> </strong></button>
                             </div>
                         </form>
