@@ -6,7 +6,7 @@
         <div class="col-md-10">
 
             @if(\Session::has('status'))
-              <div class="alert alert-success py-2">{{Session('status')}}</div>
+              <div id="status-alert" class="alert alert-success py-2">{{Session('status')}}</div>
             @endif
 
 
