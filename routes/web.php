@@ -31,6 +31,11 @@ Route::get('/waiting',function(){
 	return view('love.waiting');
 });
 
+// Route::post('/ad1}','App\Http\Controllers\AdController@storeAd1');
+Route::get('/admin',function(){
+	return 'Hi Maquiz';
+});
 
+Auth::routes();
 
-
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
