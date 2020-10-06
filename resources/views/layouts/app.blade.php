@@ -26,10 +26,11 @@
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
     <style>
         html,body{
-            max-width: 800px;
+            max-width: 900px;
             margin:auto;
         }
         #bg-img{
+            height: 94.7vh;
             background-image: url("{{ asset('assets/images/bg4.jpg') }}");
             background-position: center;
             background-size: cover;
