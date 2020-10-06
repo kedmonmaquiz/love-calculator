@@ -74,4 +74,26 @@ class RegisterController extends Controller
             'password' => Hash::make($data['password']),
         ]);
     }
+
+    public function showRegistrationForm()
+    {
+        if (Gate::denies('isSuperAdmin')) {
+            return "<Strong style='color:red'>Sorry! The page does not exist</strong>";
+        }
+
+        return view('auth.register');
+    }
+
+    public function register(Request $request)
+    {
+        if(Gate::denies('isSuperAdmin')) {
+           return "<Strong style='color:red'>Sorry! You Are not Authorized to Perform This Action</strong>";
+       }
+
+        $this->validator($request->all())->validate();
+
+        event(new Registered($user = $this->create($request->all())));
+
+        return redirect()->back()->with('msg','New Admin Added Successfully, Now you can add another User');
+    }
 }
