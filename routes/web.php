@@ -13,6 +13,10 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+Route::get('hey',function(){
+  return 'Heheheeh';
+});
+
 Route::redirect('/','/love');
 
 Route::get('l/{id}/{code}','App\Http\Controllers\AppController@index');
@@ -31,10 +35,8 @@ Route::get('/waiting',function(){
 	return view('love.waiting');
 });
 
-Route::get('/mimi',function(){
-	return 'hello';
-});
-
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
+
