@@ -7,6 +7,9 @@
 
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
+     
+     <!--Address Bar Color for chrome-->
+    <meta name="theme-color" content="#6c012d">
 
     <title>{{ 'Love Calculator | Admin' }}</title>
 
