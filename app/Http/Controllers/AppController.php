@@ -26,8 +26,14 @@ class AppController extends Controller
     }
 
     public function ownerDashboard($id,$code){
-      $owner = Owner::where(['code'=>$code,'id'=>$id])->first();
-      return view('love.dashboard',compact('owner'));
+      if($owner = Owner::where(['code'=>$code,'id'=>$id])->first()){
+         return view('love.dashboard',compact('owner'));
+      } else{
+        abort(404);
+      }
+      
+
+      
     } 
 
     public function index($id,$code){
